@@ -38,11 +38,10 @@ body {
   background-color: var(--white);
   margin: 35% auto 1rem auto;
   border-radius: 1rem;
-  align-items: center;
   box-shadow: 0 2rem 2rem rgba(0,0,0,.25);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .container {
     flex-direction: row;
     width: 75%;
@@ -51,7 +50,7 @@ body {
     display: none;
   }
   .illustration #desktop {
-    display: block !important;
+    display: flex !important;
   }
   .faq-title {
     text-align: left !important;
@@ -70,14 +69,15 @@ body {
 
 .illustration #desktop {
   display: none;
-  padding: 3rem 0;
+  height: 100%;
   position: relative;
+  align-items: center;
 }
 
 .illustration .box {
   position: absolute;
-  top: 40%;
-  left: -20%;
+  margin-left: -20%;
+  margin-top: 20%;
 }
 
 .illustration #desktop{
