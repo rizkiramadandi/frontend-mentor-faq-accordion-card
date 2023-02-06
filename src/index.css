@@ -78,11 +78,10 @@ body {
   position: absolute;
   top: 40%;
   left: -20%;
-  /* transform: translateY(-50%); */
 }
 
 .illustration #desktop{
-  background: url('./images/bg-pattern-desktop.svg');
+  background: url('../images/bg-pattern-desktop.svg');
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: 120% 70%;
@@ -90,8 +89,6 @@ body {
 
 .illustration #desktop .woman-container {
   overflow: hidden;
-  /* background: url('./images/bg-pattern-desktop.svg');
-  background-size: cover; */
 }
 
 .illustration #desktop .woman {
@@ -99,7 +96,7 @@ body {
 }
 
 .illustration #mobile {
-  background: url('./images/bg-pattern-mobile.svg');
+  background: url('../images/bg-pattern-mobile.svg');
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center 100%;
