@@ -121,6 +121,7 @@ body {
   display: flex;
   align-items: center;
   margin: 1rem 0;
+  color: var(--very-dark-grayish-blue);
 }
 
 .question:hover {
@@ -141,6 +142,7 @@ body {
 
 .question.active span:nth-child(1) {
   font-weight: bold;
+  color: black !important;
 }
 
 .question.active span:nth-child(2) {
